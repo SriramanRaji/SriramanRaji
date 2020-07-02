@@ -57,6 +57,26 @@ main {
         a {
             padding: 0.4rem;
 
+            // .fa-linkedin-in:hover {
+            //     color: #007bb6;
+            // }
+
+            // .fa-instagram:hover {
+            //     color: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+            // }
+
+            // .fa-envelope:hover {
+            //     color: #AA0000;
+            // }
+
+            // .fa-whatsapp:hover {
+            //     color: #25d366;
+            // }
+
+            // .fa-github:hover {
+            //     color: #333;
+            // }
+
             &:hover {
                 color: $secondary-color;
                 @include easeOut();

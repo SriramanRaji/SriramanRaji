@@ -11,6 +11,7 @@
   "author": "Sriraman Raji",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1"
   }
 }
