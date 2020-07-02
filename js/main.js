@@ -4,6 +4,20 @@ const menuBtn       = document.querySelector('.menu-btn');
 const menuBranding  = document.querySelector('.menu-branding');
 const menuNav       = document.querySelector('.menu-nav');
 const navItems      = document.querySelectorAll('.nav-item');
+const desktopMailLink   = document.querySelector('.link-mail-desktop');
+const mobileMailLink   = document.querySelector('.link-mail-mobile');
+const desktopWaLink     = document.querySelector('.link-wa-desktop');
+const mobileWaLink      = document.querySelector('.link-wa-mobile');
+
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+if (isMobile) {
+    desktopMailLink.style.display = "none";
+    desktopWaLink.style.display = "none";
+} else {
+    mobileMailLink.style.display = "none";
+    mobileWaLink.style.display = "none";    
+}
 
 // Initial State of Menu
 let showMenu        = false;

@@ -218,6 +218,12 @@ main {
       .boxes div:hover span {
         color: #000; }
 
+.show-on {
+  display: block; }
+
+.show-off {
+  display: none; }
+
 .btn-dark {
   background: black;
   color: #FFF; }
