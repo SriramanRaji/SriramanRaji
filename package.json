@@ -1,0 +1,16 @@
+{
+  "name": "sriramanraji",
+  "version": "1.0.0",
+  "description": "Sriraman Raji - Portfolio",
+  "main": "app.js",
+  "homepage": "https://SriramanRaji.github.io/SriramanRaji",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Sriraman Raji",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
