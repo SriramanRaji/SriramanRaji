@@ -75,7 +75,8 @@
     text-decoration: none;
     transition: all 0.6s ease-out; }
     .menu .nav-link:hover {
-      color: #009CDE; }
+      color: #009CDE;
+      transform: scale(1.25); }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.2s; }
@@ -266,7 +267,12 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh; }
+  main {
+    padding: 2rem; }
+    main #home h1 {
+      margin-top: 10vh; }
+  .lg-heading {
+    margin-top: 1rem;
+    font-size: 4rem; }
   .projects {
     grid-template-columns: 1fr; } }
