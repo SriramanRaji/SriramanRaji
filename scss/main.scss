@@ -205,6 +205,14 @@ main {
 
 }
 
+.show-on {
+    display: block;
+}
+
+.show-off {
+    display: none;
+}
+
 .btn-dark {
     @extend .btn;
     background: darken($primary-color, 50);
