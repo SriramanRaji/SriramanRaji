@@ -136,8 +136,7 @@ header {
   color: #009CDE; }
 
 main {
-  padding: 3rem;
-  height: 100%;
+  padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
