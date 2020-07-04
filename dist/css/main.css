@@ -15,12 +15,12 @@
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
-      background: #44f; }
+      background: #4274e0; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px);
-      background: #44f; }
+      background: #4274e0; }
 
 .menu {
   position: fixed;
@@ -59,14 +59,14 @@
       height: 250px;
       background: url(../images/potrait.jpg);
       border-radius: 50%;
-      border: 3px solid #44f; }
+      border: 3px solid #4274e0; }
   .menu .nav-item {
     transform: translate3d(37.5rem, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #44f; }
+      color: #4274e0; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,7 +77,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #44f; }
+      color: #4274e0; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -139,7 +139,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #44f; }
+  color: #4274e0; }
 
 main {
   padding: 4rem;
@@ -150,7 +150,7 @@ main {
       padding: 0.4rem;
       color: rgba(255, 255, 255, 0.8); }
       main .icons a:hover {
-        color: #44f;
+        color: #4274e0;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -166,7 +166,7 @@ main {
     grid-area: bioImage;
     margin: auto;
     border-radius: 50%;
-    border: #44f 3px solid; }
+    border: #4274e0 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -181,7 +181,7 @@ main {
   .about-info .job {
     background: #2f2f2f;
     padding: 0.5rem;
-    border-bottom: #44f 4px solid; }
+    border-bottom: #4274e0 4px solid; }
 
 .projects {
   display: grid;
@@ -193,7 +193,7 @@ main {
     opacity: 0.85; }
     .projects img:hover {
       opacity: 1;
-      border-color: #44f;
+      border-color: #4274e0;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -210,7 +210,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #44f;
+      background: #4274e0;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -221,7 +221,7 @@ main {
   border: 0;
   margin-bottom: 0.2rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #44f;
+    background: #4274e0;
     color: #000; }
 
 .btn-dark {
