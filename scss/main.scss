@@ -11,7 +11,9 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  // font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -22,6 +24,7 @@ h3 {
   font-weight: 400;
 
   &.lg-heading {
+    font-family: "Kaushan Script", cursive;
     font-size: 6rem;
   }
 
@@ -79,9 +82,9 @@ main {
   display: grid;
   grid-gap: 2rem;
   grid-template-areas:
-    "bioImage bio bio bio"
-    "job1 job2 job3 job4";
-  grid-template-columns: repeat(4, 1fr);
+    "bioImage bio bio bio bio"
+    "job1 job2 job3 job4 job5";
+  grid-template-columns: repeat(5, 1fr);
 
   .bio-image {
     grid-area: bioImage;
@@ -111,10 +114,18 @@ main {
     grid-area: job4;
   }
 
+  .job-5 {
+    grid-area: job5;
+  }
+
   .job {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 4px solid;
+
+    h3 {
+      font-weight: bold;
+    }
   }
 }
 

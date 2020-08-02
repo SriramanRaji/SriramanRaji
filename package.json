@@ -1,7 +1,7 @@
 {
   "name": "sriramanraji",
   "version": "1.0.0",
-  "description": "Sriraman Raji - Portfolio",
+  "description": "A Responsive Portfolio",
   "main": "app.js",
   "homepage": "https://SriramanRaji.github.io/SriramanRaji",
   "scripts": {
@@ -9,9 +9,8 @@
     "deploy": "gh-pages -d dist"
   },
   "author": "Sriraman Raji",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1"
   }
 }

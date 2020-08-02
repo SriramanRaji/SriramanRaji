@@ -1,9 +1,9 @@
-$primary-color: #222;
-$secondary-color: #5581ed;
+$primary-color: #444;
+$secondary-color: darken(rgba(3, 207, 252, 1), 15);
 $show-home-image: true;
 $home-image: url(../images/background.jpg);
 $brand-image: url(../images/potrait.jpg);
-$background-opacity: 0.8;
+$background-opacity: 0.65;
 
 @mixin easeTransition {
   transition: all 0.5s ease-out;

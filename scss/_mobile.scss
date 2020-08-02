@@ -62,7 +62,8 @@
       "job1"
       "job2"
       "job3"
-      "job4";
+      "job4"
+      "job5";
     grid-template-columns: 1fr;
   }
 
@@ -77,7 +78,7 @@
     padding: 2rem;
 
     &#home h1 {
-      margin-top: 10rem;
+      margin-top: 20rem;
     }
 
     .lg-heading {
