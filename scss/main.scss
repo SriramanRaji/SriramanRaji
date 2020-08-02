@@ -13,7 +13,6 @@ body {
   margin: 0;
   // font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -78,6 +77,12 @@ main {
   }
 }
 
+#about {
+  .lg-heading {
+    margin-top: 2.5rem;
+  }
+}
+
 .about-info {
   display: grid;
   grid-gap: 2rem;
@@ -130,6 +135,12 @@ main {
 }
 
 // Work Page
+#work {
+  .lg-heading {
+    margin-top: 2.5rem;
+  }
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -149,6 +160,12 @@ main {
 }
 
 // Contact
+#contact {
+  .lg-heading {
+    margin-top: 2.5rem;
+  }
+}
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
