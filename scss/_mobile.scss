@@ -53,7 +53,7 @@
       //   width: 9.2rem;
       //   height: 9.2rem;
     }
-  } 
+  }
 
   .about-info {
     grid-template-areas:
@@ -62,8 +62,8 @@
       "job1"
       "job2"
       "job3"
-      "job4"
-      "job5";
+      "job4";
+      // "job5";
     grid-template-columns: 1fr;
   }
 
