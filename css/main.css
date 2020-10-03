@@ -161,8 +161,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 2rem;
-  grid-template-areas: "bioImage bio bio bio bio" "job1 job2 job3 job4 job5";
-  grid-template-columns: repeat(5, 1fr); }
+  grid-template-areas: "bioImage bio bio bio" "job1 job2 job3 job4";
+  grid-template-columns: repeat(4, 1fr); }
   .about-info .bio-image {
     grid-area: bioImage;
     margin: auto;
@@ -179,8 +179,6 @@ main {
     grid-area: job3; }
   .about-info .job-4 {
     grid-area: job4; }
-  .about-info .job-5 {
-    grid-area: job5; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
@@ -278,7 +276,7 @@ main {
     .menu-branding .potrait {
       background: url(../images/potrait.jpg); }
   .about-info {
-    grid-template-areas: "bioImage" "bio" "job1" "job2" "job3" "job4" "job5";
+    grid-template-areas: "bioImage" "bio" "job1" "job2" "job3" "job4";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
