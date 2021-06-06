@@ -5,7 +5,7 @@
   "main": "app.js",
   "homepage": "https://SriramanRaji.github.io/SriramanRaji",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "author": "Sriraman Raji",
   "license": "MIT",
