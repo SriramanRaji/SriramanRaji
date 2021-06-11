@@ -2,12 +2,12 @@ $color-pallete: #5499d1, #3caea3, #f6d55c, #ee7879, #ff9f52, #f66747,
   rgba(3, 207, 252, 1);
 
 $primary-color: #444;
-// $secondary-color: rgba(3, 207, 252, 1);
+$secondary-color: #f6d55c;
 
-$secondary-color: nth(
-  $list: $color-pallete,
-  $n: random(9),
-);
+// $secondary-color: nth(
+//   $list: $color-pallete,
+//   $n: random(9),
+// );
 
 $show-home-image: true;
 $home-image: url(../images/background.jpg);
