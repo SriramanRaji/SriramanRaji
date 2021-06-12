@@ -15,12 +15,12 @@
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
-      background: #f7c40c; }
+      background: #ffc800; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px);
-      background: #f7c40c; }
+      background: #ffc800; }
 
 .menu {
   position: fixed;
@@ -59,14 +59,14 @@
       height: 250px;
       background: url(../images/profile-lg.jpg);
       border-radius: 50%;
-      border: 3px solid #f7c40c; }
+      border: 3px solid #ffc800; }
   .menu .nav-item {
     transform: translate3d(37.5rem, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #f7c40c; }
+      color: #ffc800; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,8 +77,8 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #f7c40c;
-      border-bottom: 1px solid #f7c40c; }
+      color: #ffc800;
+      border-bottom: 1px solid #ffc800; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -142,7 +142,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #f7c40c; }
+  color: #ffc800; }
 
 main {
   padding: 4rem;
@@ -153,7 +153,7 @@ main {
       padding: 0.4rem;
       color: rgba(255, 255, 255, 0.8); }
       main .icons a:hover {
-        color: #f7c40c;
+        color: #ffc800;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -169,7 +169,7 @@ main {
     grid-area: bioImage;
     margin: auto;
     border-radius: 50%;
-    border: #f7c40c 3px solid; }
+    border: #ffc800 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 2rem; }
@@ -184,7 +184,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 1rem;
-    border-bottom: #f7c40c 4px solid; }
+    border-bottom: #ffc800 4px solid; }
     .about-info .job h3,
     .about-info .job h5 {
       font-weight: bold;
@@ -205,7 +205,7 @@ main {
     opacity: 0.85; }
     .projects img:hover {
       opacity: 1;
-      border-color: #f7c40c;
+      border-color: #ffc800;
       transition: all 0.5s ease-out; }
 
 #contact .container {
@@ -217,7 +217,7 @@ main {
   grid-template-columns: 1fr 1.5fr;
   grid-gap: 2rem; }
   #contact .container .contact-info {
-    background-color: #f7c40c;
+    background-color: #ffc800;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -258,7 +258,7 @@ main {
       margin-top: 2rem;
       transition: all 0.5s ease-out; }
       #contact .container .contact-form form p button:hover {
-        background: #f7c40c;
+        background: #ffc800;
         color: #000; }
 
 .alert, .alert-success, .alert-error {
@@ -271,7 +271,7 @@ main {
   border-radius: 8px; }
 
 .alert-success {
-  background: #f7c40c; }
+  background: #ffc800; }
 
 .alert-error {
   background: red; }
@@ -282,7 +282,7 @@ main {
   border: 0;
   margin-bottom: 0.2rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #f7c40c;
+    background: #ffc800;
     color: #000; }
 
 .btn-dark {
