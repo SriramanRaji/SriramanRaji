@@ -15,12 +15,12 @@
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
-      background: #ffc800; }
+      background: #03cffc; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px);
-      background: #ffc800; }
+      background: #03cffc; }
 
 .menu {
   position: fixed;
@@ -42,14 +42,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #484848;
     list-style: none;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background-color: #444;
+    background-color: #555;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -59,14 +59,14 @@
       height: 250px;
       background: url(../images/profile-lg.jpg);
       border-radius: 50%;
-      border: 3px solid #ffc800; }
+      border: 3px solid #03cffc; }
   .menu .nav-item {
     transform: translate3d(37.5rem, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #ffc800; }
+      color: #03cffc; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,8 +77,8 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #ffc800;
-      border-bottom: 1px solid #ffc800; }
+      color: #03cffc;
+      border-bottom: 1px solid #03cffc; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -96,7 +96,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #555;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -114,7 +114,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.65); }
+      background: rgba(85, 85, 85, 0.65); }
 
 h1,
 h2,
@@ -142,7 +142,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #ffc800; }
+  color: #03cffc; }
 
 main {
   padding: 4rem;
@@ -153,7 +153,7 @@ main {
       padding: 0.4rem;
       color: rgba(255, 255, 255, 0.8); }
       main .icons a:hover {
-        color: #ffc800;
+        color: #03cffc;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -169,7 +169,7 @@ main {
     grid-area: bioImage;
     margin: auto;
     border-radius: 50%;
-    border: #ffc800 3px solid; }
+    border: #03cffc 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 2rem; }
@@ -182,9 +182,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #515151;
+    background: #626262;
     padding: 1rem;
-    border-bottom: #ffc800 4px solid; }
+    border-bottom: #03cffc 4px solid; }
     .about-info .job h3,
     .about-info .job h5 {
       font-weight: bold;
@@ -205,7 +205,7 @@ main {
     opacity: 0.85; }
     .projects img:hover {
       opacity: 1;
-      border-color: #ffc800;
+      border-color: #03cffc;
       transition: all 0.5s ease-out; }
 
 #contact .container {
@@ -217,7 +217,7 @@ main {
   grid-template-columns: 1fr 1.5fr;
   grid-gap: 2rem; }
   #contact .container .contact-info {
-    background-color: #ffc800;
+    background-color: #03cffc;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -258,7 +258,7 @@ main {
       margin-top: 2rem;
       transition: all 0.5s ease-out; }
       #contact .container .contact-form form p button:hover {
-        background: #ffc800;
+        background: #03cffc;
         color: #000; }
 
 .alert, .alert-success, .alert-error {
@@ -271,7 +271,7 @@ main {
   border-radius: 8px; }
 
 .alert-success {
-  background: #ffc800; }
+  background: #03cffc; }
 
 .alert-error {
   background: red; }
@@ -282,7 +282,7 @@ main {
   border: 0;
   margin-bottom: 0.2rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #ffc800;
+    background: #03cffc;
     color: #000; }
 
 .btn-dark {
@@ -290,13 +290,13 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #d5d5d5;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #3c3c3c;
   color: #fff;
   height: 60px; }
 
