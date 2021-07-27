@@ -198,7 +198,12 @@ main {
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem; }
+  grid-gap: 2rem;
+  font-weight: bold;
+  color: #03cffc; }
+  .projects .item {
+    width: 80%;
+    height: 80%; }
   .projects img {
     width: 100%;
     border: 2px #fff solid;
