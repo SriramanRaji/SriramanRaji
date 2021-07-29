@@ -12,7 +12,8 @@ body {
   height: 100%;
   margin: 0;
   // font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-family: "Open Sans Condensed", sans-serif;
+  // font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Quicksand", sans-serif;
   line-height: 1.5;
 }
 
@@ -174,12 +175,12 @@ main {
 
 // Contact
 #contact .container {
-  max-width: 1180px;
+  max-width: 1200px;
   margin: auto;
   padding: auto;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 0.55fr 0.45fr;
   grid-gap: 2rem;
 
   .contact-info {
@@ -189,8 +190,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    font-size: 1.2rem;
+    // padding: 1rem;
+    font-size: 1.4rem;
 
     div h3 {
       font-weight: bold;
@@ -202,7 +203,7 @@ main {
   }
 
   .contact-form {
-    padding: 0.5rem;
+    // padding: 0.5rem;
     form {
       p {
         label,
@@ -211,7 +212,6 @@ main {
         button {
           display: block;
           width: 100%;
-          border-radius: 6px;
         }
 
         label,
@@ -230,6 +230,7 @@ main {
         }
 
         button {
+          font-family: "Quicksand", sans-serif;
           height: 3.5rem;
           font-size: 1.2rem;
           font-weight: 400;
@@ -251,23 +252,30 @@ main {
 }
 
 .alert {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 10px;
-  color: #fff;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 1.2rem;
   display: none;
-  border-radius: 8px;
+  padding: 4rem;
+  transition: color 1s ease-out;
+
+  div h2 {
+    font-weight: bolder;
+  }
 }
 
 .alert-success {
   @extend .alert;
-  background: $secondary-color;
+  background-color: green;
 }
 
 .alert-error {
   @extend .alert;
-  background: red;
+  background-color: red;
 }
 
 .btn {

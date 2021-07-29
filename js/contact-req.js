@@ -35,11 +35,11 @@ function submitForm(e) {
   var phoneRegex = "[0-9]{10}";
 
   var emailResult = email.match(emailRegex);
-  var phoneTempResult = phone.match(phoneRegex)
+  var phoneTempResult = phone.match(phoneRegex);
 
   var phoneResult = false;
-  
-  if ((String(phone).length == 10) && phoneTempResult != null) {
+
+  if (String(phone).length == 10 && phoneTempResult != null) {
     phoneResult = true;
   } else {
     phoneResult = false;
@@ -50,21 +50,25 @@ function submitForm(e) {
     saveMessage(name, phone, email, message, "Sent on " + today);
 
     //  Show alert
-    document.querySelector(".alert-success").style.display = "block";
+    document.querySelector(".contact-info").style.display = "none";
+    document.querySelector(".alert-success").style.display = "flex";
 
     //Hide alert after 3 seconds
     setTimeout(function () {
       document.querySelector(".alert-success").style.display = "none";
+      document.querySelector(".contact-info").style.display = "flex";
     }, 3000);
 
     //   Reset form
     document.getElementById("contact-form").reset();
   } else {
     //  Show alert
-    document.querySelector(".alert-error").style.display = "block";
+    document.querySelector(".contact-info").style.display = "none";
+    document.querySelector(".alert-error").style.display = "flex";
 
     //Hide alert after 3 seconds
     setTimeout(function () {
+      document.querySelector(".contact-info").style.display = "flex";
       document.querySelector(".alert-error").style.display = "none";
     }, 3000);
   }
