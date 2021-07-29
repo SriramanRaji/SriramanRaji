@@ -65,6 +65,11 @@
     // "job4";
     // "job5";
     grid-template-columns: 1fr;
+
+    .bio p,
+    .job p {
+      text-align: center;
+    }
   }
 
   .projects {
@@ -104,12 +109,14 @@
     .lg-heading {
       margin-top: 2.5rem;
     }
-    // .about-info .bio p {
-    //   text-align: center;
-    // }
   }
 
   #work {
+    .projects {
+      justify-items: center;
+      align-items: center;
+    }
+
     .lg-heading {
       margin-top: 2.5rem;
     }

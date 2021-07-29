@@ -341,6 +341,9 @@ main {
   .about-info {
     grid-template-areas: "bioImage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
+    .about-info .bio p,
+    .about-info .job p {
+      text-align: center; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   #contact .container {
@@ -359,6 +362,9 @@ main {
       font-size: 1.5rem; }
   #about .lg-heading {
     margin-top: 2.5rem; }
+  #work .projects {
+    justify-items: center;
+    align-items: center; }
   #work .lg-heading {
     margin-top: 2.5rem; }
   #contact .lg-heading {
