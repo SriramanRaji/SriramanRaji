@@ -50,26 +50,22 @@ function submitForm(e) {
     saveMessage(name, phone, email, message, "Sent on " + today);
 
     //  Show alert
-    document.querySelector(".contact-info").style.display = "none";
-    document.querySelector(".alert-success").style.display = "flex";
+    document.querySelector('.modal-success').style.display = 'block';
 
     //Hide alert after 3 seconds
     setTimeout(function () {
-      document.querySelector(".alert-success").style.display = "none";
-      document.querySelector(".contact-info").style.display = "flex";
+      document.querySelector('.modal-success').style.display = 'none';
     }, 3000);
 
     //   Reset form
     document.getElementById("contact-form").reset();
   } else {
     //  Show alert
-    document.querySelector(".contact-info").style.display = "none";
-    document.querySelector(".alert-error").style.display = "flex";
+    document.querySelector('.modal-error').style.display = 'block';
 
     //Hide alert after 3 seconds
     setTimeout(function () {
-      document.querySelector(".contact-info").style.display = "flex";
-      document.querySelector(".alert-error").style.display = "none";
+      document.querySelector('.modal-error').style.display = 'none';
     }, 3000);
   }
 }
