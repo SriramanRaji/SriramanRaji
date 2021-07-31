@@ -50,22 +50,22 @@ function submitForm(e) {
     saveMessage(name, phone, email, message, "Sent on " + today);
 
     //  Show alert
-    document.querySelector('.modal-success').style.display = 'block';
+    document.querySelector(".modal-success").style.display = "block";
 
     //Hide alert after 3 seconds
     setTimeout(function () {
-      document.querySelector('.modal-success').style.display = 'none';
+      document.querySelector(".modal-success").style.display = "none";
     }, 3000);
 
     //   Reset form
     document.getElementById("contact-form").reset();
   } else {
     //  Show alert
-    document.querySelector('.modal-error').style.display = 'block';
+    document.querySelector(".modal-error").style.display = "block";
 
     //Hide alert after 3 seconds
     setTimeout(function () {
-      document.querySelector('.modal-error').style.display = 'none';
+      document.querySelector(".modal-error").style.display = "none";
     }, 3000);
   }
 }

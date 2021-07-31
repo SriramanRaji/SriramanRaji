@@ -15,12 +15,12 @@
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
-      background: #03cffc; }
+      background: #a4c639; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px);
-      background: #03cffc; }
+      background: #a4c639; }
 
 .menu {
   position: fixed;
@@ -59,14 +59,14 @@
       height: 250px;
       background: url(../images/profile-lg.jpg);
       border-radius: 50%;
-      border: 3px solid #03cffc; }
+      border: 3px solid #a4c639; }
   .menu .nav-item {
     transform: translate3d(37.5rem, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #03cffc; }
+      color: #a4c639; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,8 +77,8 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #03cffc;
-      border-bottom: 1px solid #03cffc; }
+      color: #a4c639;
+      border-bottom: 1px solid #a4c639; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -142,7 +142,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #03cffc; }
+  color: #a4c639; }
 
 main {
   padding: 4rem;
@@ -153,7 +153,7 @@ main {
       padding: 0.4rem;
       color: rgba(255, 255, 255, 0.8); }
       main .icons a:hover {
-        color: #03cffc;
+        color: #a4c639;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -169,10 +169,10 @@ main {
     grid-area: bioImage;
     margin: auto;
     border-radius: 50%;
-    border: #03cffc 3px solid; }
+    border: #a4c639 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 2rem; }
+    font-size: 1.5rem; }
     .about-info .bio p {
       text-align: justify; }
   .about-info .job-1 {
@@ -184,7 +184,7 @@ main {
   .about-info .job {
     background: #626262;
     padding: 1rem;
-    border-bottom: #03cffc 4px solid; }
+    border-bottom: #a4c639 4px solid; }
     .about-info .job h3,
     .about-info .job h5 {
       font-weight: bold;
@@ -200,7 +200,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   font-weight: bold;
-  color: #03cffc; }
+  color: #a4c639; }
   .projects .item {
     width: 80%;
     height: 80%; }
@@ -210,7 +210,7 @@ main {
     opacity: 0.85; }
     .projects img:hover {
       opacity: 1;
-      border-color: #03cffc;
+      border-color: #a4c639;
       transition: all 0.5s ease-out; }
 
 #contact .container {
@@ -222,7 +222,7 @@ main {
   grid-template-columns: 0.55fr 0.45fr;
   grid-gap: 2rem; }
   #contact .container .contact-info {
-    background-color: #03cffc;
+    background-color: #a4c639;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -260,10 +260,11 @@ main {
     margin-top: 2rem;
     transition: all 0.5s ease-out; }
     #contact .container .contact-form form p button:hover {
-      background: #03cffc;
+      background: #a4c639;
       color: #000; }
 
-.modal, .modal-success, .modal-error {
+.modal, .modal-success,
+.modal-error {
   display: none;
   position: fixed;
   z-index: 5;
@@ -274,15 +275,17 @@ main {
   height: 100%;
   overflow: auto;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.75); }
+  background-color: rgba(0, 0, 0, 0.75);
+  transition: all 0.5s ease-out; }
 
 .modal-content {
   padding: 20px;
-  background: #35d9fd;
+  background: #b6d161;
   width: 100%;
   text-align: center;
   align-content: center;
-  justify-content: center; }
+  justify-content: center;
+  transition: all 0.5s ease-out; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -290,7 +293,7 @@ main {
   border: 0;
   margin-bottom: 0.2rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #03cffc;
+    background: #a4c639;
     color: #000; }
 
 .btn-dark {

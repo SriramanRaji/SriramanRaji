@@ -100,7 +100,7 @@ main {
 
   .bio {
     grid-area: bio;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     p {
       text-align: justify;
@@ -263,6 +263,7 @@ main {
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.75);
+  @include easeTransition();
 }
 
 .modal-content {
@@ -273,12 +274,13 @@ main {
   text-align: center;
   align-content: center;
   justify-content: center;
+  @include easeTransition();
 }
 
-.modal-success, .modal-error {
+.modal-success,
+.modal-error {
   @extend .modal;
 }
-
 
 .btn {
   display: block;
