@@ -18,14 +18,14 @@
 }
 .menu-btn.close .btn-line:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
-  background: #839e2e;
+  background: #a4c639;
 }
 .menu-btn.close .btn-line:nth-child(2) {
   opacity: 0;
 }
 .menu-btn.close .btn-line:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -6px);
-  background: #839e2e;
+  background: #a4c639;
 }
 
 .menu {
@@ -73,7 +73,7 @@
   height: 250px;
   background: url(../images/profile-lg.jpg);
   border-radius: 50%;
-  border: 3px solid #839e2e;
+  border: 3px solid #a4c639;
 }
 .menu .nav-item {
   transform: translate3d(37.5rem, 0, 0);
@@ -83,7 +83,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #839e2e;
+  color: #a4c639;
 }
 .menu .nav-link {
   display: inline-block;
@@ -96,8 +96,8 @@
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #839e2e;
-  border-bottom: 1px solid #839e2e;
+  color: #a4c639;
+  border-bottom: 1px solid #a4c639;
 }
 
 .nav-item:nth-child(1) {
@@ -175,7 +175,7 @@ header {
 }
 
 .text-secondary {
-  color: #839e2e;
+  color: #a4c639;
 }
 
 main {
@@ -190,7 +190,7 @@ main .icons a {
   color: rgba(255, 255, 255, 0.8);
 }
 main .icons a:hover {
-  color: #839e2e;
+  color: #a4c639;
   transition: all 0.5s ease-out;
 }
 main#home {
@@ -210,7 +210,7 @@ main#home h1 {
   grid-area: bioImage;
   margin: auto;
   border-radius: 50%;
-  border: #839e2e 3px solid;
+  border: #a4c639 3px solid;
 }
 .about-info .bio {
   grid-area: bio;
@@ -231,7 +231,7 @@ main#home h1 {
 .about-info .job {
   background: #626262;
   padding: 1rem;
-  border-bottom: #839e2e 4px solid;
+  border-bottom: #a4c639 4px solid;
 }
 .about-info .job h3,
 .about-info .job h5 {
@@ -250,7 +250,7 @@ main#home h1 {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   font-weight: bold;
-  color: #839e2e;
+  color: #a4c639;
 }
 .projects .item {
   width: 80%;
@@ -263,7 +263,7 @@ main#home h1 {
 }
 .projects img:hover {
   opacity: 1;
-  border-color: #839e2e;
+  border-color: #a4c639;
   transition: all 0.5s ease-out;
 }
 
@@ -277,8 +277,8 @@ main#home h1 {
   grid-gap: 2rem;
 }
 #contact .container .contact-info {
-  background-color: #839e2e;
-  color: #fff;
+  background-color: #a4c639;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -324,8 +324,8 @@ main#home h1 {
   transition: all 0.5s ease-out;
 }
 #contact .container .contact-form form p button:hover {
-  background: #839e2e;
-  color: #fff;
+  background: #a4c639;
+  color: #000;
 }
 
 .modal,
@@ -347,7 +347,7 @@ main#home h1 {
 
 .modal-content {
   padding: 20px;
-  background: #a4c639;
+  background: #b6d161;
   width: 100%;
   text-align: center;
   align-content: center;
@@ -366,8 +366,8 @@ main#home h1 {
 .btn:hover,
 .btn-dark:hover,
 .btn-light:hover {
-  background: #839e2e;
-  color: #fff;
+  background: #a4c639;
+  color: #000;
 }
 
 .btn-dark {
