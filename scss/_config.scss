@@ -2,7 +2,7 @@ $color-pallete: #5499d1, #4267b2, #0f7dc2, #1da1f2, #a4c639, #f6d55c, #e4002b,
   #ff9f52, #f66747, rgba(3, 207, 252, 1);
 
 $primary-color: #555;
-$secondary-color: #a4c639;
+$secondary-color: saturate( #a4c639, 100%);
 // $secondary-color: nth($color-pallete, random(10));
 
 $show-home-image: true;
