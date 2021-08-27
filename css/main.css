@@ -201,7 +201,8 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   font-weight: bold;
-  color: #c2ff00; }
+  color: #c2ff00;
+  text-align: center; }
   .projects .item {
     width: 80%;
     height: 80%; }
