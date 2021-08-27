@@ -42,14 +42,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #484848;
+    background: #262626;
     list-style: none;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background-color: #555;
+    background-color: #333;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -96,7 +96,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #555;
+  background: #333;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -114,7 +114,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(85, 85, 85, 0.65); }
+      background: rgba(51, 51, 51, 0.65); }
 
 h1,
 h2,
@@ -183,7 +183,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #626262;
+    background: #404040;
     padding: 1rem;
     border-bottom: #c2ff00 4px solid; }
     .about-info .job h3,
@@ -304,13 +304,13 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #d5d5d5;
+  background: #b3b3b3;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #3c3c3c;
+  background: #1a1a1a;
   color: #fff;
   height: 60px; }
 
