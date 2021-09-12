@@ -241,11 +241,18 @@ main {
   #contact .container .contact-form form p button {
     display: block;
     width: 100%;
-    border-radius: 3px; }
+    border-radius: 5px; }
+  #contact .container .contact-form form p input, #contact .container .contact-form form p textarea {
+    background: #333;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid #c2ff00;
+    border-right: 1px solid #c2ff00;
+    border-left: 1px solid #333;
+    border-top: 1px solid #333; }
   #contact .container .contact-form form p label,
   #contact .container .contact-form form p input {
-    height: 2rem;
-    border: none; }
+    height: 2rem; }
   #contact .container .contact-form form p label {
     font-size: 1.5rem;
     font-weight: 400; }
@@ -258,7 +265,9 @@ main {
     font-weight: 400;
     display: block;
     padding: 0.5rem 1rem;
-    border: 0;
+    color: #fff;
+    background: #333;
+    border: 1px solid #c2ff00;
     margin-bottom: 0.2rem;
     margin-top: 2rem;
     transition: all 0.5s ease-out; }

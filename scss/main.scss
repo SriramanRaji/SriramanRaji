@@ -214,13 +214,22 @@ main {
         button {
           display: block;
           width: 100%;
-          border-radius: 3px;
+          border-radius: 5px;
+        }
+
+        input, textarea {
+          background: $primary-color;
+          color: rgba(set-text-color($primary-color), 1);
+          outline: none;
+          border-bottom: 1px solid $secondary-color;
+          border-right: 1px solid $secondary-color;
+          border-left: 1px solid $primary-color;
+          border-top: 1px solid $primary-color;
         }
 
         label,
         input {
           height: 2rem;
-          border: none;
         }
 
         label {
@@ -239,7 +248,10 @@ main {
           font-weight: 400;
           display: block;
           padding: 0.5rem 1rem;
-          border: 0;
+          color: set-text-color($primary-color);
+          // border: 0;
+          background: $primary-color;;
+          border: 1px solid $secondary-color;
           margin-bottom: 0.2rem;
           margin-top: 2rem;
           @include easeTransition();
