@@ -152,14 +152,15 @@ main {
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   font-weight: bold;
   color: $secondary-color;
   text-align: center;
+  justify-items: center;
 
   .item {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
   }
 
   img {

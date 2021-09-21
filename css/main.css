@@ -199,13 +199,14 @@ main {
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   font-weight: bold;
   color: #00d1ff;
-  text-align: center; }
+  text-align: center;
+  justify-items: center; }
   .projects .item {
-    width: 80%;
-    height: 80%; }
+    width: 70%;
+    height: 70%; }
   .projects img {
     width: 100%;
     border: 2px #fff solid;
