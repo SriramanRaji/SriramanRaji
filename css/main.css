@@ -15,12 +15,12 @@
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
-      background: #c2ff00; }
+      background: #00d1ff; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px);
-      background: #c2ff00; }
+      background: #00d1ff; }
 
 .menu {
   position: fixed;
@@ -59,14 +59,14 @@
       height: 250px;
       background: url(../images/profile-lg.jpg);
       border-radius: 50%;
-      border: 3px solid #c2ff00; }
+      border: 3px solid #00d1ff; }
   .menu .nav-item {
     transform: translate3d(37.5rem, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #c2ff00; }
+      color: #00d1ff; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,8 +77,8 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #c2ff00;
-      border-bottom: 1px solid #c2ff00; }
+      color: #00d1ff;
+      border-bottom: 1px solid #00d1ff; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -143,7 +143,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #c2ff00; }
+  color: #00d1ff; }
 
 main {
   padding: 4rem;
@@ -154,7 +154,7 @@ main {
       padding: 0.4rem;
       color: rgba(255, 255, 255, 0.8); }
       main .icons a:hover {
-        color: #c2ff00;
+        color: #00d1ff;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -170,7 +170,7 @@ main {
     grid-area: bioImage;
     margin: auto;
     border-radius: 50%;
-    border: #c2ff00 3px solid; }
+    border: #00d1ff 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -185,7 +185,7 @@ main {
   .about-info .job {
     background: #404040;
     padding: 1rem;
-    border-bottom: #c2ff00 4px solid; }
+    border-bottom: #00d1ff 4px solid; }
     .about-info .job h3,
     .about-info .job h5 {
       font-weight: bold;
@@ -201,7 +201,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   font-weight: bold;
-  color: #c2ff00;
+  color: #00d1ff;
   text-align: center; }
   .projects .item {
     width: 80%;
@@ -212,7 +212,7 @@ main {
     opacity: 0.85; }
     .projects img:hover {
       opacity: 1;
-      border-color: #c2ff00;
+      border-color: #00d1ff;
       transition: all 0.5s ease-out; }
 
 #contact .container {
@@ -224,7 +224,7 @@ main {
   grid-template-columns: 0.55fr 0.45fr;
   grid-gap: 2rem; }
   #contact .container .contact-info {
-    background-color: #c2ff00;
+    background-color: #00d1ff;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -246,8 +246,8 @@ main {
     background: #333;
     color: white;
     outline: none;
-    border-bottom: 2px solid #c2ff00;
-    border-right: 2px solid #c2ff00;
+    border-bottom: 2px solid #00d1ff;
+    border-right: 2px solid #00d1ff;
     border-left: 1px solid #333;
     border-top: 1px solid #333; }
   #contact .container .contact-form form p label,
@@ -267,12 +267,12 @@ main {
     padding: 0.5rem 1rem;
     color: #fff;
     background: #333;
-    border: 2px solid #c2ff00;
+    border: 2px solid #00d1ff;
     margin-bottom: 0.2rem;
     margin-top: 2rem;
     transition: all 0.5s ease-out; }
     #contact .container .contact-form form p button:hover {
-      background: #c2ff00;
+      background: #00d1ff;
       color: #000; }
 
 .modal, .modal-success,
@@ -293,7 +293,7 @@ main {
 
 .modal-content {
   padding: 20px;
-  background: #ceff33;
+  background: #33daff;
   width: 100%;
   text-align: center;
   align-content: center;
@@ -306,7 +306,7 @@ main {
   border: 0;
   margin-bottom: 0.2rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #c2ff00;
+    background: #00d1ff;
     color: #000; }
 
 .btn-dark {
