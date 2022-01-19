@@ -3,13 +3,13 @@ $color-pallete: #5499d1, #4267b2, #0f7dc2, #1da1f2, #a4c639, #f6d55c, #e4002b,
 
 // $primary-color: #555;
 $primary-color: #333;
-$secondary-color: saturate( rgba(3, 207, 252, 1), 100%);
+$secondary-color: saturate( #a4c639, 100%);
 // $secondary-color: nth($color-pallete, random(10));
 
 $show-home-image: true;
 $home-image: url(../images/background.jpg);
 $brand-image: url(../images/profile-lg.jpg);
-$background-opacity: 0.65;
+$background-opacity: 0.8;
 
 @mixin easeTransition {
   transition: all 0.5s ease-out;
