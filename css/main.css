@@ -164,7 +164,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 2rem;
-  grid-template-areas: "bioImage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioImage bio bio"
+ "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioImage;
